@@ -57,6 +57,6 @@ function changeTestimonial() {
         $('.testimonial').first().fadeIn();
     }
 }
-setInterval(changeTestimonial, 3000);
+setInterval(changeTestimonial, 4000);
 </script>
 @endpush
