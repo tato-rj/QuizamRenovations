@@ -1,0 +1,104 @@
+@import "bootstrap/setup";
+@import "components/colors";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;700&display=swap');
+
+@import "~animate.css/animate.min";
+@import "~@fortawesome/fontawesome-free/css/all.min";
+@import "~bootstrap/scss/bootstrap";
+@import "~hamburgers/dist/hamburgers.min";
+
+$levels: 1, 2, 3, 4, 5, 6, 7, 8, 9;
+
+@each $level in $levels {
+  .opacity-#{$level} {opacity: $level/10;}
+
+  .hover-opacity-#{$level}:hover {opacity: $level/10;}
+}
+
+.hover-opacity-0:hover {opacity: 1} 
+
+// MARGIN
+.mr-1 {@extend .me-1;}
+.mr-2 {@extend .me-2;}
+.mr-3 {@extend .me-3;}
+.mr-4 {@extend .me-4;}
+.mr-5 {@extend .me-5;}
+.mr-auto {@extend .me-auto;}
+
+.ml-1 {@extend .ms-1;}
+.ml-2 {@extend .ms-2;}
+.ml-3 {@extend .ms-3;}
+.ml-4 {@extend .ms-4;}
+.ml-5 {@extend .ms-5;}
+.ml-auto {@extend .ms-auto;}
+
+.pr-1 {@extend .pe-1;}
+.pr-2 {@extend .pe-2;}
+.pr-3 {@extend .pe-3;}
+.pr-4 {@extend .pe-4;}
+.pr-5 {@extend .pe-5;}
+
+.pl-1 {@extend .ps-1;}
+.pl-2 {@extend .ps-2;}
+.pl-3 {@extend .ps-3;}
+.pl-4 {@extend .ps-4;}
+.pl-5 {@extend .ps-5;}
+
+$levels: 6, 7, 8, 9;
+$increment: 4.5;
+
+@each $level in $levels {
+	.m-#{$level} {margin: $spacer * $increment !important}
+	.mt-#{$level} {margin-top: $spacer * $increment !important}
+	.mr-#{$level} {margin-right: $spacer * $increment !important}
+	.mb-#{$level} {margin-bottom: $spacer * $increment !important}
+	.ml-#{$level} {margin-left: $spacer * $increment !important}
+	.my-#{$level} {margin-bottom: $spacer * $increment !important; margin-top: $spacer * $increment !important}
+	.mx-#{$level} {margin-left: $spacer * $increment !important; margin-right: $spacer * $increment !important}
+
+	.p-#{$level} {padding: $spacer * $increment !important}
+	.pt-#{$level} {padding-top: $spacer * $increment !important}
+	.pr-#{$level} {padding-right: $spacer * $increment !important}
+	.pb-#{$level} {padding-bottom: $spacer * $increment !important}
+	.pl-#{$level} {padding-left: $spacer * $increment !important}
+	.py-#{$level} {padding-bottom: $spacer * $increment !important; padding-top: $spacer * $increment !important}
+	.px-#{$level} {padding-left: $spacer * $increment !important; padding-right: $spacer * $increment !important}
+
+	$increment: $increment + 1.5;
+}
+
+.left-0 {@extend .start-0;}
+.right-0 {@extend .end-0;}
+
+.x-auto {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.y-auto {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.position-absolute-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.position-fixed-center {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.d-center {
+	@extend .d-flex, .justify-content-center, .align-items-center;
+}
+
+.d-apart {
+	@extend .d-flex, .justify-content-between, .flex-column;
+}
