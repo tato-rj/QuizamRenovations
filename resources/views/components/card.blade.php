@@ -11,7 +11,7 @@
             </div>  
         </div>
         <a href="mailto:{{config('app.email')}}">
-            <button class="btn-raw  w-100 px-4 py-3 bg-secondary">
+            <button class="btn-raw text-dark w-100 px-4 py-3 bg-secondary">
                 <strong>@fa(['icon' => 'wrench'])GET YOUR PRICING TODAY</strong>
             </button>
         </a>
