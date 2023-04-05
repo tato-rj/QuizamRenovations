@@ -28,18 +28,8 @@
 			      </div>
 			      <div class="modal-body">
 			        <p class="opacity-6 mb-4">{{$case['subtitle']}}</p>
-			        <div class="row mb-4">
-			        	<div class="col-lg-8 col-md-8 col-12">
-					        <p class="small">{{$case['description']}}</p>
-					    </div>
-					    <div class="col-lg-4 col-md-4 col-12">
-					    	<label class="small opacity-6" style="font-weight: bold">LOGISTICS</label>
-					    	<ul class="p-0 mt-3" style="list-style-type: none;">
-					    		@foreach($case['logistics'] as $item)
-					    		<li class="mb-1 small">{{$item}}</li>
-					    		@endforeach
-					    	</ul>
-					    </div>
+			        <div class="mb-4">
+					    <p class="small">{{$case['description']}}</p>
 				    </div>
 			        <div class="row">
 		        		@foreach($case['images'] as $image)
