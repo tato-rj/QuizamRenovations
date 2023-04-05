@@ -54,7 +54,7 @@ Route::get('/', function () {
             'title' => 'Kitchen Remodeling', 
             'subtitle' => 'Downtown Brooklyn',
             'images' => [1,2,3],
-            'description' => 'Providing Furniture Installation, Relocation and Warehousing Services for this financial ratings giant, Certified has remained an integral part of S&P’s expansions, changes and re-stacks. From traditional open floor plans to their Conference Centers and satellite offices, we continue to provide project and day-to-day services.',
+            'description' => 'The existing space was first assessed for its layout and functionality. The old cabinetry and appliances were removed and replaced with new custom-built cabinetry, countertops, and a modern stainless-steel sink and faucet. The installation also included new lighting fixtures and electrical outlets to accommodate the new appliances. The chosen color scheme was a blend of neutral tones and modern finishes, giving the kitchen a fresh and sleek look. Finally, the new kitchen was thoroughly tested and inspected for safety and functionality, ensuring a successful installation that meets the needs and preferences of the client.',
             'logistics' => [
                 'Financial & Banking',
                 '1,000,000 SF',
@@ -65,7 +65,7 @@ Route::get('/', function () {
             'title' => 'Outdoor Renovation', 
             'subtitle' => 'Brooklyn',
             'images' => [1,2],
-            'description' => 'Providing Furniture Installation, Relocation and Warehousing Services for this financial ratings giant, Certified has remained an integral part of S&P’s expansions, changes and re-stacks. From traditional open floor plans to their Conference Centers and satellite offices, we continue to provide project and day-to-day services.',
+            'description' => 'The installation work began with a thorough inspection of the area to determine the required materials and measurements. The existing grass was removed and the area was leveled before laying the foundation for the tile floor. A durable and weather-resistant tile was chosen for the outdoor area to ensure longevity and ease of maintenance. A fence was then installed around the perimeter of the area to provide privacy and security. The chosen fence material was a sturdy and stylish aluminum, painted in a color that complemented the tile floor. The installation was completed with a final inspection and testing to ensure that all components were properly installed and functioning as intended. The result was a beautiful and functional outdoor space that provided both privacy and a comfortable area for outdoor activities.',
             'logistics' => [
                 'Financial & Banking',
                 '1,000,000 SF',
@@ -76,7 +76,7 @@ Route::get('/', function () {
             'title' => 'Bathroom Renovation', 
             'subtitle' => 'Upper East Side, Manhattan',
             'images' => [1,2],
-            'description' => 'Providing Furniture Installation, Relocation and Warehousing Services for this financial ratings giant, Certified has remained an integral part of S&P’s expansions, changes and re-stacks. From traditional open floor plans to their Conference Centers and satellite offices, we continue to provide project and day-to-day services.',
+            'description' => 'The installation began with the removal of the old fixtures, flooring, and tiles. The bathroom was then reconfigured to maximize space and functionality. New plumbing and electrical work were installed to accommodate the updated fixtures, including a modern shower, bathtub, toilet, and sink with a sleek and contemporary design. The walls and flooring were tiled with a durable and water-resistant material that complemented the overall design of the bathroom. A new ventilation system was also installed to ensure proper air circulation and prevent mold growth. The installation was completed with a final inspection to ensure that all components were properly installed and functioning as intended. The result was a stunning and luxurious bathroom that combined functionality with modern design.',
             'logistics' => [
                 'Financial & Banking',
                 '1,000,000 SF',
@@ -87,7 +87,7 @@ Route::get('/', function () {
             'title' => 'Doors & Storefront', 
             'subtitle' => 'Midtown, Manhattan',
             'images' => [1,2,3,4],
-            'description' => 'Providing Furniture Installation, Relocation and Warehousing Services for this financial ratings giant, Certified has remained an integral part of S&P’s expansions, changes and re-stacks. From traditional open floor plans to their Conference Centers and satellite offices, we continue to provide project and day-to-day services.',
+            'description' => 'The installation work began with the precise measurement of the opening to ensure a perfect fit. The storefront was designed to maximize natural light and visibility and was constructed with high-quality materials that provide excellent insulation and security. The door was also custom-built to match the aesthetic of the storefront and was equipped with advanced locking mechanisms to ensure maximum safety. The installation was completed with a final inspection to ensure that all components were properly installed and functioning as intended. The result was a stunning and durable storefront that provides both security and aesthetic appeal.',
             'logistics' => [
                 'Financial & Banking',
                 '1,000,000 SF',
@@ -98,7 +98,7 @@ Route::get('/', function () {
             'title' => 'Townhouse Renovation', 
             'subtitle' => 'Brooklyn',
             'images' => [1,2,3,4,5],
-            'description' => 'Providing Furniture Installation, Relocation and Warehousing Services for this financial ratings giant, Certified has remained an integral part of S&P’s expansions, changes and re-stacks. From traditional open floor plans to their Conference Centers and satellite offices, we continue to provide project and day-to-day services.',
+            'description' => 'The installation work was a comprehensive process that involved the complete removal and replacement of all existing fixtures, wiring, and plumbing. The renovation included new walls, floors, and ceilings, as well as updated electrical and plumbing systems. High-quality materials and finishes were selected to give the space a modern and luxurious feel, while maximizing functionality and space utilization. The installation was completed with a final inspection to ensure that all components were properly installed and functioning as intended. The result was a stunning and fully renovated townhouse that met the needs and preferences of the client.',
             'logistics' => [
                 'Financial & Banking',
                 '1,000,000 SF',
